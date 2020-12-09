@@ -155,9 +155,8 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Speaker</label>
     <nameField>
-        <displayFormat>S-{0000}</displayFormat>
         <label>Name</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Speakers</pluralLabel>
     <searchLayouts/>
