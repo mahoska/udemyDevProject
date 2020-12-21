@@ -5,7 +5,7 @@
  * @last modified on  : 12-21-2020
  * @last modified by  : Anna Makhovskaya
  * Modifications Log 
- * Ver   Date         Author             Modification
+ * Ver   Date         Author             Modificationsf
  * 1.0   12-21-2020   Anna Makhovskaya   Initial Version
 **/
 public with sharing class TransactionLogHandler {
