@@ -720,7 +720,7 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <custom>false</custom>
+
     <fieldPermissions>
         <editable>true</editable>
         <field>Attendee__c.Company_Name__c</field>
