@@ -12,7 +12,7 @@ public  class DeleteEventBatch implements Database.Batchable<sObject> {
 
     public Database.QueryLocator start(Database.BatchableContext batchContext) {
 
-        String query = 'SELECT Id, Name FROM Event__c WHERE Live__c = true AND End_Date_Time < LAST_N_MONTHS:2';
+        String query = 'SELECT Id, Name FROM Event__c WHERE Live__c = true AND End_DateTime__c < LAST_N_MONTHS:2';
 
         return Database.getQueryLocator(query);
     }
